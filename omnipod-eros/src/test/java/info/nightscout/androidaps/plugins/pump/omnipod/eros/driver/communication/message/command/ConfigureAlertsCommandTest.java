@@ -35,7 +35,7 @@ public class ConfigureAlertsCommandTest {
                 ByteUtil.fromHexString("79a410df0205"), //
                 alertConfiguration1.getRawData());
 
-        Duration hardExpirationTime = Duration.standardHours(79).minus(Duration.standardMinutes(1));
+        Duration hardExpirationTime = Duration.standardHours(80).minus(Duration.standardMinutes(1));
         AlertConfiguration alertConfiguration2 = new AlertConfiguration( //
                 AlertType.SHUTDOWN_IMMINENT_ALARM,
                 AlertSlot.SLOT2, //
